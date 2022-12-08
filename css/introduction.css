@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    /*border: 1px solid red;*/
+    width: 80%;
+    margin: 0 auto;
+    padding: 2%;
+    margin: auto;
+}
+
+.separateness {
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+.block-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-right {
+    text-align: right;
+    /*讓menu那行文字靠最右*/
+}
+
+.text-center {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 3%;
+    /*讓project那行文字靠中*/
+}
+
+.text-center-non-margin {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*讓project那行文字靠中*/
+}
+
+.clearfix {
+    /*因為左logo和右menu共90%下一行會跑來中間這因此用clearfix來卡個位*/
+    float: none;
+    clear: both;
+}
+
+.img-responsive {
+    width: 100%/*讓整張圖佔滿那個div區塊*/
+}
+
+.col-2 {
+    /*border: 1px solid black;*/
+    width: 45%;
+    /*原本設50%但又有border1px兩個加起來超過100%會跑到下一行所以設小於50%*/
+    float: left;
+    margin-right: 2%;
+}
+
+.col-3-1 {
+    /* border: 1px solid black;*/
+    width: 39%;
+    /*原本設50%但又有border1px兩個加起來超過100%會跑到下一行所以設小於50%*/
+    height: 270px;
+    float: left;
+    background-color: rgb(223, 214, 202);
+    font-size: 20px;
+}
+
+.col-3-1 ul {
+    display: inline-block;
+}
+
+.col-3-2 {
+    /* border: 1px solid black;*/
+    width: 39%;
+    /*原本設50%但又有border1px兩個加起來超過100%會跑到下一行所以設小於50%*/
+    height: 270px;
+    float: left;
+    background-color: rgb(247, 243, 213);
+    font-size: 20px;
+}
+
+.col-3-2 ul {
+    display: inline-block;
+}
+
+.col-3-3 {
+    /*border: 1px solid black;*/
+    width: 39%;
+    /*原本設50%但又有border1px兩個加起來超過100%會跑到下一行所以設小於50%*/
+    height: 270px;
+    float: left;
+    background-color: rgb(223, 214, 202);
+    font-size: 20px;
+}
+
+.col-3-3 ul {
+    display: inline-block;
+}
+
+.col-4 {
+    /*border: 1px solid black;*/
+    width: 21%;
+    /*原本設25%但又有border1px四個加起來超過100%會跑到下一行所以設小於25%*/
+    float: left;
+    margin-right: 3%;
+    margin-bottom: 2%;
+}
+
+.col-22 {
+    border: 1px solid black;
+    width: 25%;
+    float: left;
+    margin: 2%;
+}
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 2%;
+    text-decoration: none;
+    /*把<a>的底線去掉*/
+}
+
+.btn:hover {
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+    /* border: 1px solid black;*/
+    font-weight: bold;
+}
+
+.menu {
+    border-bottom: 1px solid black;
+    width: 20%;
+    float: right;
+    /*border: 1px solid black;*/
+}
+
+.menu ul {
+    list-style-type: none;
+    /*把項目前面的點點刪除*/
+}
+
+.menu ul li {
+    display: inline;
+    /*列表的一項一項原本是一行一行，把它變成全部一行*/
+    padding: 2%;
+    /*讓menu那行四個小項目彼此有點距離*/
+}
+
+.menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    /*粗體字*/
+}
+
+.menu ul li a:hover {
+    /*點擊的時候產生的變化*/
+    color: black;
+    text-decoration: underline;
+}
+
+.about {
+    margin-bottom: 5%;
+    /*讓about下面有空間和下一區塊不會連在一起*/
+}
+
+
+/*CSS for about section*/
+
+.about-title {
+    margin-bottom: 3%;
+    /*下邊界以最近的div為主，和下一個div的距離*/
+}
+
+.about-subtitle {
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    margin-bottom: 8%;
+}
+
+.about-description {
+    font-size: 1.2em;
+    /*字體大小*/
+    line-height: 150%;
+    margin-bottom: 3%;
+}
+
+.projects a {
+    color: black;
+    text-align: center;
+}
+
+.projects a:hover {
+    color: rgb(21, 27, 133);
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/*CSS for Blogs*/
+
+.blog-title {
+    padding: 2%;
+}
+
+.blogs a {
+    color: black;
+    text-align: center;
+}
+
+.blogs a:hover {
+    color: rgb(21, 27, 133);
+    font-weight: bold;
+    text-align: center;
+}
+
+.margin-bottom {
+    margin-bottom: 12%;
+}
